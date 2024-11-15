@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
@@ -8,7 +7,7 @@ function Footer() {
         <div className="w-full flex flex-col items-center gap-8 px-4 bg-[#17414F]">
             <div className="w-full md:max-w-[90%] min-w-[50%] flex flex-wrap gap-12 md:justify-center">
                 <div className="w-[300px] flex flex-col gap-4">
-                    <Image className="bg-white p-2" src="https://ik.imagekit.io/balaharisankar/elbrit/elbrit-logo.png" alt="elbrit" />
+                    <img className="bg-white p-2" src="https://ik.imagekit.io/balaharisankar/elbrit/elbrit-logo.png" alt="elbrit" />
                     <p className="text-white text-sm leading-[24px]">our health, physical and emotional well-being is important to us. We are always by your side and have made it even easier for you to find the necessary vitamins.</p>
                     <div className="flex gap-3">
                         <div className="w-fit rounded-[50%] p-2 bg-[#41BAE3]">
@@ -41,7 +40,7 @@ function Footer() {
                         {
                             ["1", "2", "3", "4", "5", "6"].map((value, index) => {
                                 return (
-                                    <Image className="w-[90px]" src={`https://ik.imagekit.io/balaharisankar/elbrit/gallery${value}.png`} key={index} alt="gallery elbrit" />
+                                    <img className="w-[90px]" src={`https://ik.imagekit.io/balaharisankar/elbrit/gallery${value}.png`} key={index} alt="gallery elbrit" />
                                 )
                             })
                         }

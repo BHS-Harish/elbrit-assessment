@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function BottomBanner() {
 
@@ -34,7 +33,7 @@ function BottomBanner() {
                     </form>
                 </div>
                 <div className="hidden lg:flex w-full md:w-[50%] flex justify-center">
-                    <Image className="w-[70%] -translate-y-[5%]" src="https://ik.imagekit.io/balaharisankar/elbrit/bottom-banner.png?updatedAt=1731683246258" alt="banner" loading="lazy" />
+                    <img className="w-[70%] -translate-y-[5%]" src="https://ik.imagekit.io/balaharisankar/elbrit/bottom-banner.png?updatedAt=1731683246258" alt="banner" loading="lazy" />
                 </div>
             </div>
             <div className="w-full md:max-w-[75%] min-w-[50%] flex gap-4 flex-wrap  justify-center -translate-y-[60px]">
@@ -42,7 +41,7 @@ function BottomBanner() {
                     contacts?.map((contact,index)=>{
                         return(
                             <div className="w-[300px] text-white bg-[#215D72] px-3 py-2 rounded-lg flex gap-2 items-center" key={index}>
-                                <Image className="scale-75" src={contact?.url} alt="contact elbrit"/>
+                                <img className="scale-75" src={contact?.url} alt="contact elbrit"/>
                                 <div>
                                     <p className="font-light">{contact?.title}</p>
                                     <p className="font-medium">{contact?.value}</p>

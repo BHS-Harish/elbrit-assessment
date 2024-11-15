@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function FeaturesSection() {
     const features = [
@@ -42,7 +41,7 @@ function FeaturesSection() {
                         return (
                             <div className="flex flex-col items-center gap-3 max-w-[280px] py-4 -translate-y-[50px]" key={index}>
                                 <div className="w-[80px] h-[80px] bg-white rounded-[50%] flex justify-center items-center" >
-                                    <Image className="w-[60px]" src={feature?.url} alt="elbrit" loading="lazy" />
+                                    <img className="w-[60px]" src={feature?.url} alt="elbrit" loading="lazy" />
                                 </div>
                                 <h1 className="text-white text-xl font-semibold">{feature?.title}</h1>
                                 <p className="text-white font-light text-center text-sm">{feature?.desc}</p>

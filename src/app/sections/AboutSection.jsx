@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function AboutSection(){
     return(
@@ -15,7 +14,7 @@ const About=()=>{
     return(
         <div className="md:max-w-[75%] w-full flex flex-col gap-12 md:flex-row">
             <div className="w-full flex justify-center md:w-[50%]">
-                <Image className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about1.png" alt="about elbrit" loading="lazy"/>
+                <img className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about1.png" alt="about elbrit" loading="lazy"/>
             </div>
             <div className="w-full md:w-[50%]">
                 <p className="text-sm font-semibold text-blue-950">ABOUT EVE PHARMACY</p>
@@ -43,7 +42,7 @@ const Service=()=>{
                 <button className="ps-8 pe-12 w-fit bg-white text-[#17414F] border-2 border-[#17414F] font-medium py-3 mt-4 rounded-3xl text-sm">EXPLORE NOW</button>
             </div>
             <div className="w-full flex justify-center md:w-[50%]">
-                <Image className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about2.png" alt="about elbrit" loading="lazy"/>
+                <img className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about2.png" alt="about elbrit" loading="lazy"/>
             </div>
         </div>
     )
@@ -53,7 +52,7 @@ const Offer=()=>{
     return(
         <div className="md:max-w-[75%] w-full flex flex-col gap-12 md:flex-row">
             <div className="w-full flex justify-center md:w-[50%]">
-                <Image className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about3.png" alt="about elbrit" loading="lazy"/>
+                <img className="w-[100%] sm:w-[50%] md:w-[100%] h-fit" src="https://ik.imagekit.io/balaharisankar/elbrit/about3.png" alt="about elbrit" loading="lazy"/>
             </div>
             <div className="w-full md:w-[50%]">
                 <p className="text-sm font-semibold text-blue-950">BEST OFFERS</p>

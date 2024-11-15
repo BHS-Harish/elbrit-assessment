@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function ProductSection(){
 
@@ -48,7 +47,7 @@ const Product=({product})=>{
     return(
         <div className="flex flex-col gap-2">
             <div className="w-[280px] bg-[#F5F5F5] relative">
-                <Image src={product?.url} alt="products"/>
+                <img src={product?.url} alt="products"/>
                 {
                     product?.dis!=0&&(
                         <p className="bg-[#FFC12B] absolute top-5 right-5 px-2 py-1 text-sm text-white font-medium rounded-lg">-{product?.dis}%</p>

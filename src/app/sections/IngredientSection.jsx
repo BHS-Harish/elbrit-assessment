@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function IngredientSection() {
     const ingredients = [
@@ -40,7 +39,7 @@ function IngredientSection() {
                     ingredients?.map((ingredient, index) => {
                         return (
                             <div className="max-w-[300px] relative" key={index}>
-                                <Image src={ingredient?.url} alt="vitamin" />
+                                <img src={ingredient?.url} alt="vitamin" />
                                 <p className="text-[#17414F] font-semibold absolute top-4 left-6 text-lg">{ingredient?.title}</p>
                                 <p className="max-w-[75%] text-[#808283] text-sm my-4 absolute top-8 font-medium left-6">{ingredient?.desc}</p>
                                 <p className="w-fit text-center text-[#2D3F59] text-sm font-semibold border-b-2 border-[#2D3F59] absolute left-6 bottom-7 cursor-pointer">See More</p>

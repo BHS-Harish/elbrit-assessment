@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function BlogSection(){
     const blogs=[
@@ -33,7 +32,7 @@ function BlogSection(){
                     blogs?.map((blog,index)=>{
                         return(
                             <div className={`w-[280px] relative ${index%2!=0?"self-end":"self-start"} `} key={index}>
-                                <Image className="brightness-50 rounded-2xl" src={blog?.url} alt="elbrit" loading="lazy"/>
+                                <img className="brightness-50 rounded-2xl" src={blog?.url} alt="elbrit" loading="lazy"/>
                                 <p className="w-fit  px-5 py-2 rounded-r-3xl text-white font-medium text-xs absolute top-5 -left-2 bg-blue-950">{blog?.date}</p>
                                 <p className="w-fit  px-5 py-2 rounded-r-3xl text-white font-bold text-md  absolute top-20 left-4">{blog?.desc}</p>
                             </div>

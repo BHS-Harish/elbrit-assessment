@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 function HeroSection(){
 
@@ -31,7 +30,7 @@ function HeroSection(){
                     <button className="ps-8 pe-12 w-fit bg-[#17414F] font-medium py-3 rounded-3xl text-sm text-white">EXPLORE</button>
                 </div>
                 <div className="w-[300px] h-[300px] bg-[#FFE9B5] rounded-tl-[50%] rounded-br-[50%]">
-                    <Image className="-translate-y-[60px] -translate-x-4" src="https://ik.imagekit.io/balaharisankar/elbrit/hero-Image.png" alt="elbrit" loading="lazy"/>
+                    <img className="-translate-y-[60px] -translate-x-4" src="https://ik.imagekit.io/balaharisankar/elbrit/hero-Image.png" alt="elbrit" loading="lazy"/>
                 </div>
                 <div className="flex flex-col gap-8">
                     {
@@ -54,7 +53,7 @@ function HeroSection(){
 const Benifits=({benifit})=>{
     return(
         <div className="flex gap-3 w-[300px]">
-            <Image className="h-[75px]" src={benifit?.url} alt="elbrit benifits" loading="lazy"/>
+            <img className="h-[75px]" src={benifit?.url} alt="elbrit benifits" loading="lazy"/>
             <div>
                 <h1 className="font-bold text-xl text-[#17414F]">{benifit?.title}</h1>
                 <p className="text-[#808283] mt-1">{benifit?.desc}</p>
