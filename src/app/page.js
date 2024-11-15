@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./sections/HeroSection";
 import FeaturesSection from "./sections/FeaturesSection";
 import ProductSection from "./sections/ProductSection";
@@ -13,7 +12,7 @@ export default function Home() {
   return (
     <div className="w-full bg-white min-h-screen">
       <header className="py-6 px-16">
-        <Image src="https://ik.imagekit.io/balaharisankar/elbrit/elbrit-logo.png" alt="Elbrit" loading="lazy" />
+        <img src="https://ik.imagekit.io/balaharisankar/elbrit/elbrit-logo.png" alt="Elbrit" loading="lazy" />
       </header>
       <main>
         <HeroSection/>

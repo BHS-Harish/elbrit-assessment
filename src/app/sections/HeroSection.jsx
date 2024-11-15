@@ -30,7 +30,7 @@ function HeroSection(){
                     <button className="ps-8 pe-12 w-fit bg-[#17414F] font-medium py-3 rounded-3xl text-sm text-white">EXPLORE</button>
                 </div>
                 <div className="w-[300px] h-[300px] bg-[#FFE9B5] rounded-tl-[50%] rounded-br-[50%]">
-                    <img className="-translate-y-[60px] -translate-x-4" src="https://ik.imagekit.io/balaharisankar/elbrit/hero-Image.png" alt="elbrit" loading="lazy"/>
+                    <img className="-translate-y-[60px] -translate-x-4" src="https://ik.imagekit.io/balaharisankar/elbrit/hero-img.png" alt="elbrit" loading="lazy"/>
                 </div>
                 <div className="flex flex-col gap-8">
                     {
